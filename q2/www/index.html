@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+<style>
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #186218;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #186218;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 16px
+}
+
+.dropdown-content a:hover {
+  background-color: #186218;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+input.MyButton {
+width: 300px;
+padding: 20px;
+cursor: pointer;
+font-family: inherit;
+font-weight: bold;
+font-size: 24px;
+background: #186218;
+color: white;
+border: 10px solid white;
+border-radius: 10px;
+display: block;
+margin: auto;
+}
+input.MyButton:hover {
+color: #186218;
+background: #9be690;
+border: 10px solid white;
+}
+
+</style>
+
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+  data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"],
+  function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"7277a541ba1023439f0234eec","lid":"d23a42cceb","uniqueMethods":true}) })</script>
+
+</head>
+<body>
+
+<ul>
+  <li><a href="/index.html">HOME</a></li>
+  <li><a href="/cache.html">CACHE</a></li>
+
+  <li class="dropdown">
+    <a href="../math/index.html" class="dropbtn">MATHEMATICS</a>
+    <div class="dropdown-content">
+      <a href="../math/stats.html">Statistics</a>
+      <a href="../math/calculus.html">Calculus</a>
+    </div>
+    <li class="dropdown">
+    <a href="../comsci/index.html" class="dropbtn">COMPUTER SCIENCE</a>
+    <div class="dropdown-content">
+      <a href="../comsci/machine.html">Machine Learning</a>
+      <a href="../comsci/design.html">Web Design</a>
+    </div>
+  </li>
+</ul>
+
+<div class="header">
+  <h1>WEB DESIGN UNIVERSITY</h1>
+
+</div>
+
+
+    <p class="tab">Welcome to Web Design University, your one-stop destination to learning Math and Computer Science.</p>
+
+
+    <form>
+    <input class="MyButton" type="button" value="Math" onclick="window.location.href='../math/index.html'" />
+    </form>
+
+    <form>
+    <input class="MyButton" type="button" value="Computer Science" onclick="window.location.href='../comsci/index.html'" />
+    </form>
+
+    <div class="footer">
+      <p>&copy; Copyright 2019 Web Design University
+</p>
+    </div>
+
+  </body>
+
+</html>

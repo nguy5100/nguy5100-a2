@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+
+  /* This changes everything inside the body tag. */
+html {
+  height: 100%;
+  box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: Ubuntu, Monaco, monospace;
+    font-size: 24px;
+    font-weight: normal;
+    color: black;
+    height: 100%;
+  }
+
+.tab { margin-left: 10px; }
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #9be690;
+  color: #186218;
+  font-size: 30px;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+    height: 45px;
+    background-color: grey;
+    bottom: 6px;
+    left: 6px;
+    right: 6px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}

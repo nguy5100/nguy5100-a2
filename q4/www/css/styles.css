@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
+
+body {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  height: 100%;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 18px;
+  }
+}
+
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: #e75480;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+
+}
+
+.header-right a:hover {
+  background-color: #e75480;
+  color: white;
+}
+
+.header a.active {
+  background-color: pink;
+  color: #e75480;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  color: white;
+  text-align: center;
+  font-size: 70%
+}
+
+
+.hero-section {
+  background: url("../img/donut_background.jpg") 50% no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  padding: 1em;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
